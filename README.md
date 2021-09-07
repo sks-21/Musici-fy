@@ -1,2 +1,2 @@
 # Musici-fy
-Created with CodeSandbox
+A React.js app to recommend songs to the users.
