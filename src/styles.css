@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+body {
+  margin: 0rem;
+  overflow: hidden;
+}
+
+:root {
+  --primary-color: #8b5cf6;
+  --secondary-color: #c4b5fd;
+  --off-white: #ede9fe;
+}
+
+.App {
+  font-family: "Raleway", sans-serif;
+  /* text-align: center; */
+}
+
+nav {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  border-bottom-left-radius: 2rem;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.main-container {
+  margin: auto;
+  width: 600px;
+  margin-top: 7rem;
+}
+
+.main-container .heading {
+  display: block;
+  font-size: 2.5rem;
+}
+
+.main-container .description {
+  display: block;
+  font-size: small;
+  margin: 0.5rem 1rem;
+}
+.list-genre {
+  margin: 1rem 0rem;
+}
+
+.list-genre button {
+  padding: 1em 2em;
+  margin: 0rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+  font-family: inherit;
+  background-color: var(--secondary-color);
+}
+
+.list-genre button:hover {
+  box-shadow: 4px 4px 2px 1px #9ca3af;
+  transition: box-shadow 0.2s;
+}
+
+.list-genre button:active {
+  background-color: #f5f3ff;
+  transform: translateY(2px);
+}
+
+.list-song {
+  margin-left: 0rem;
+  list-style: none;
+  padding-inline-start: 0rem;
+}
+
+.div-song {
+  background-color: var(--off-white);
+  margin-bottom: 0.5rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid black;
+}
+
+footer {
+  padding: 2rem;
+  background-color: var(--primary-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
